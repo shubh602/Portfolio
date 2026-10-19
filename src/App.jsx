@@ -5,7 +5,8 @@ import About from './Components/About'
 import Skill from './Components/Skill'
 import Work from './Components/Work'
 import Contact from './Components/Contact'
-import Timeline from './Components/Timeline'
+import Portal from './Components/Portal'
+
 
 function App() {
 
@@ -16,10 +17,10 @@ function App() {
      <Hero />
      <About />
      <Skill />
-     <Timeline />   
      <Work />
      <Contact /> 
-
+  
+     <Portal />
     </div> 
   )
 }
